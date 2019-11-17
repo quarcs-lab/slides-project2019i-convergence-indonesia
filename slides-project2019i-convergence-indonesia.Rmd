@@ -1,0 +1,280 @@
+---
+title: "Disparities in Regional Productivity, Capital Accumulation, and Efﬁciency across Indonesia: "
+subtitle: "A Convergence Clubs Approach"
+author: "Carlos Mendez <br /> https://carlos-mendez.rbind.io <br /> Graduate School of International Development<br />Nagoya University <br /> <br />  Mitsuhiko Kataoka <br /> Graduate School of Business <br />Rikkyo University"
+date: "Prepared for the 2019 Applied Regional Science Conference (ARSC)<br /><br />[ Slides and paper available at: http://bit.ly/arsc2019 ]"
+output:
+  xaringan::moon_reader:
+    css: ["default", "metropolis-fonts", "svm-xaringan-style.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+## Motivation:
+
+- Economic convergence is important for regional cohesion and competitiveness
+
+- Regional income disparities are a pervasive feature of Indonesia (Esmara 1975; Mishra 2009; Bendesa et al 2016)
+
+- Improvements in labor productivity (and its determinants) may help reduce regional income disparities
+
+  
+## Research Objective:
+  
+- Study the evolution of regional disparities in labor productivity, capital accumulation, and efﬁciency across Indonesian provinces with a particular emphasis on the formation of local convergence clubs
+
+  - Labor productivity = F(Physical capital, Human capital, Efficiency)
+
+  
+## Methods:
+
+- Nonlinear dynamic factor model  (Phillips and Sul, 2007, 2009)
+- Clustering algorithm for panel data (Phillips and Sul, 2007, 2009)
+
+## Data:
+
+- Labor productivity, phyical capital, human capital, efficiency (Katoka, 2013,2018)
+- 26 Indonesian provinces over the 1990-2010 period 
+
+
+---
+
+class: middle
+
+## Main Results:
+
+1. Cross-provincial dynamics of labor productivity are characterized by **TWO convergence clubs**
+
+2. The dynamics of the proximate determinants of labor productivity show some mixed results:
+
+  - Physical and human capital are characterized by **multiple convergence clubs** (FOUR and TWO convergence clubs, respectively)
+  - Two alternative measures of efficiency are characterized by **ONE convergence club** 
+
+---
+
+class: middle
+
+# Outline of this presentation
+
+1. Some stylized facts
+
+2. Convergence framework (intuition)
+
+3. Main results of the paper
+
+  - Two convergence clubs in labor productivity
+  - Four convergence clubs in physical capital
+  - Two convergence clubs in human capital
+  - One convergence club in efficiency (non-parametric and parametric)
+
+
+
+<br />
+<br />
+[ Slides and paper available at: http://bit.ly/arsc2019 ]
+
+---
+
+class: center, middle
+
+# (1) Some stylized facts
+**Regional heterogeneity across Indonesia**
+
+
+---
+
+class: middle,center
+
+## Are there any signs of convergence in labor productivity?
+
+![](figs/fig01.jpg)
+
+
+---
+
+class: middle,center
+
+## Are there any signs of convergence in the determinants of labor productivity?
+
+![](figs/fig02.jpg)
+
+---
+
+class: center, middle
+
+# (2) Convergence framework
+
+Convergence test (intuition)
+
+Convergence clubs (intuition)
+
+
+---
+class: middle
+
+# Convergence framework (brief overview)
+
+- First, define a relative transition parameter, $h_{it}$, as
+
+$$h_{it}=\frac{y_{it}}{\frac{1}{N}\sum_{i=1}^{N}y_{it}}$$
+
+- Second, the convergence hypothesis is defined as
+
+$$H_{t}=\frac{1}{N}\sum_{i=1}^{N}\left(h_{it}-1\right)^{2}\rightarrow 0$$
+
+In other words, when the relative transition parameter converges to unity, $h_{it}\rightarrow1$, the cross-sectional variance converges to zero, $H_{t}\rightarrow0$.
+
+
+- Thrid, Phillips and Sul (2007) test this hypothesis by using the following log t regression model
+
+$$log\left(\frac{H_{1}}{H_{t}} \right)-2log\left\{ log\left(t\right)\right\}  =  a+b\:log\left(t\right)+\epsilon_{t}$$
+
+---
+class: middle, center
+
+# Convergence test (intuition)
+
+![](figs/convergence-test.jpg)
+
+---
+class: middle, center
+
+# Convergence clubs (intuition)
+
+![](figs/convergence-clubs.jpg)
+
+
+
+---
+class: middle, center
+
+# (3) Main results
+
+Overall results
+
+Characteristics of the two convergence clubs in labor productivity
+
+Characteristics of the multiple convergence clubs in capital accumulation
+
+Characterstics of the unique convergence club in efficiency 
+
+---
+class: middle, center
+
+## Overall results: Convergence and Divergence
+
+![](figs/tab01.jpg)
+
+
+---
+class: middle, center
+
+## LABOR PRODUCTIVITY: Two convergence clubs
+![](figs/fig03.jpg)
+
+
+---
+class: middle, center
+
+## LABOR PRODUCTIVITY: Members of the clubs
+
+![](figs/fig04.jpg)
+
+
+
+---
+class: middle, center
+
+## PHYSICAL CAPITAL: Four convergence clubs
+
+![](figs/fig05.jpg)
+
+
+---
+class: middle, center
+
+## PHYSICAL CAPITAL: Members of the clubs
+
+![](figs/fig06.jpg)
+
+
+
+
+---
+class: middle, center
+
+## HUMAN CAPITAL: Two convergence clubs
+
+![](figs/fig07.jpg)
+
+
+---
+class: middle, center
+
+## HUMAN CAPITAL: Members of the clubs
+
+![](figs/fig08.jpg)
+
+
+---
+class: middle, center
+
+## EFFICIENCY: One convergence club
+
+![](figs/fig09.jpg)
+
+
+Note: Efficiency is measured in absolute levels using a Cobb-Douglas production function with elasticity parameter of 0.33. The mean and the 95 conﬁdence interval is computed for each year 
+---
+
+class: middle
+
+# Concluding Remarks
+
+
+- Reject the (overall) convergence hypothesis in labor productivity and two of its determinants: physical capital and human capital
+  - Physical capital: Four clubs with separating trends at the extremes
+  - Human capital: Two clubs with serating trends
+
+- A unique convergence club in efficiency
+  - Low effeciency club: Is this a low efficiency trap?
+
+## Implications, discussion, and further research
+
+- Regional heterogeneity is a pervasive feature in Indonesia (and many developing countries)
+  - The need for an analaytical framework that focuses on heterogeneity and goes beyond the average
+
+- Convergence clubs may help us identify economies facing similar challenges
+  - Call for better coordination and cooperation policies both within and between clubs
+
+- Masked within provinces in Indonesia, there is still a high degree of heterogeneity that is worth exploring. Using district level data is the next step. 
+
+
+---
+
+class: center, middle
+
+# Thank you very much for your attention
+
+https://carlos-mendez.rbind.io
+
+Slides and working paper available at: http://bit.ly/arsc2019
+
+![](figs/QuaRCS-lab-logo2.png)
+
+**Quantitative Regional and Computational Science lab**
+
+https://quarcs-lab.rbind.io
+
+***
+
+C. Mendez: This research project was supported by JSPS KAKENHI Grant Number 	19K13669 
+

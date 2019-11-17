@@ -1,2 +1,16 @@
-# slides-project2019i-convergence-indonesia
-Slides for project2019i: Disparities in Regional Productivity, Capital Accumulation, and Efficiency across Indonesia: A Convergence Clubs Approach
+# slides-project2019h-cla-convergence-latin-america
+
+Link to the slides
+
+<https://slides-project2019h-cla-convergence-latin-america.netlify.com/#1>
+
+Link to working paper and slides
+
+<http://bit.ly/jasid2019>
+
+
+To expot to PDF
+
+library(webshot)
+webshot("slides-project2019h-cla-convergence-latin-america.html", "slides-project2019h-cla-convergence-latin-america.pdf")
+
